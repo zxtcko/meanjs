@@ -82,9 +82,34 @@ This command does a few things:
 ## Running Your Application
 After the install process is over, you'll be able to run your application using Grunt, just run grunt default task:
 
+You need to start mongodb through, otherwise mongodb cannot connect
+![](material/1.png)
+![](material/2.png)
+
+
+*	1: brew services start mongodb
+
+```
+$ brew services start mongodb
+```
+
+![](material/3.png)
+
+*	2: grunt
+
 ```
 $ grunt
 ```
+
+*	3: open [http://localhost:3000](http://localhost:3000)
+
+![](material/4.png)
+
+*	There are two basic feature in the demo: Blog, Chats
+
+![](material/5.png)
+
+![](material/6.png)
 
 Your application should run on port 3000 with the *development* environment configuration, so in your browser just go to [http://localhost:3000](http://localhost:3000)
 
