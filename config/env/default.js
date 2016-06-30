@@ -1,5 +1,7 @@
 'use strict';
 
+// global configuration file
+
 module.exports = {
   app: {
     title: 'MEAN.JS',
