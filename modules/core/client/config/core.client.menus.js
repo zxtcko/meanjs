@@ -7,6 +7,8 @@
 
   menuConfig.$inject = ['menuService'];
 
+
+//Toggle view menu on the right corner
   function menuConfig(menuService) {
     menuService.addMenu('account', {
       roles: ['user']
